@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="main w-full">
+      <nav
+        class="fixed top-0 left-0 px-10 py-3 flex justify-between items-center w-full "
+      >
+        <img
+          class="w-[160px] mix-blend-screen filter saturate-150 contrast-125"
+          src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b"
+          alt=""
+        />
+        <div class="flex gap-5 items-center">
+          <a
+            href="https://www.rockstargames.com/reddeadredemption2"
+            class="text-white text-sm hover:underline"
+            target="_blank"
+            >Games</a
+          >
+          <a
+            href="https://www.ubisoft.com/en-us/game/far-cry-new-dawn"
+            class="text-white text-sm hover:underline"
+            target="_blank"
+            
+            >News</a
+          >
+          <a
+            href="https://www.ubisoft.com/en-us/game/rainbow-six/siege"
+            class="text-white text-sm hover:underline"
+            target="_blank"
+            >Community</a
+          >
+          <a
+            href="https://www.ubisoft.com/en-us/game/rainbow-six/siege"
+            class="text-white text-sm hover:underline"
+            target="_blank"
+            >Shop</a
+          >
+          <a
+            href="https://www.ubisoft.com/en-us/game/rainbow-six/siege"
+            class="text-white text-sm hover:underline"
+            target="_blank"
+            >Support</a
+          >
+        </div>
+      </nav>
+      <div class="w-full h-screen overflow-hidden">
+        <img
+          class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 mix-blend-screen filter saturate-150 contrast-125 w-3/4"
+          src="https://preview.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1080&crop=smart&auto=webp&s=0e62e74ba8b5ef6191228e855079491cfa56f57b"
+          alt=""
+        />
+        <div class="w-[30rem] h-[30rem] opacity-70 rounded-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-[-1] bg-blue-800 blur-[90px]"></div>
+        <canvas id="canvas"> </canvas>
+      </div>
+    </div>
+    <!-- <div class="w-full h-screen bg-zinc-900 relative">
+
+      <div class="w-full h-52 absolute top-0 left-0"></div>
+
+
+
+
+    </div> -->
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
